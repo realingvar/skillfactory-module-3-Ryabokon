@@ -1,0 +1,107 @@
+@font-face{
+	font-family: 'Open-Sans';
+	src: url( fonts/OpenSans-Bold );
+	src: url( fonts/OpenSans-ExtraBold );
+	src: url( fonts/OpenSans-Regular );
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {	
+	margin:0;
+	background-color: rgb(255, 255, 255);
+}
+
+.header {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1249px;
+	height: 89px;
+	background-color:rgb(48, 48, 48);
+}
+ 
+ .site-cap {
+ 	text-align: center;
+ }
+
+.site-cap a {
+	font-family: "Open-Sans", Arial, Helvetica, sans-serif;
+	display: inline-block;
+	padding: 40px 25px 30px;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.intro {
+	display: flex;
+	max-width: 1250px;
+	justify-content: space-between;
+	margin: 100px auto;
+	background-color: rgb(246, 242, 241);
+}
+
+.site-cap a:hover{
+	background-color: red;
+}
+
+.intro-wrapper {
+	width: 609px;
+	vertical-align: top;
+}
+
+.intro h1 {
+	font-family: 'OpenSans-ExtraBold', Arial, Helvetica, sans-serif;
+	background-color: rgb(255, 255, 255);
+	margin: 0px;
+	font-size: 40pt;
+	text-transform: uppercase;
+}
+
+.intro-text {
+	font-family: 'OpenSans-Regular', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	max-width:600px;
+
+}
+
+.contact-link {
+	font-family: 'OpenSans-Bold', Arial, Helvetica, sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	margin-top: 62px;
+	padding: 20px 20px 20px 20px;
+	background-color: red;
+}
+
+.intro-image {
+
+	width: 550px;
+	height: 350px;
+}
+
+.footer {
+	background-color: rgb(49, 48, 48);
+	max-height: 110px;
+
+}
+.container-footer {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1249px;
+	margin: 0px auto;
+}
+
+.text-footer {
+	display: flex;
+	font-family: 'OpenSans-Regular', Arial, Helvetica, sans-serif;
+	align-items: center;
+	color: rgb( 177, 177, 177);
+}
+
+.icon {
+	filter: invert(100%);
+}
